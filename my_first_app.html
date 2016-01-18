@@ -1,0 +1,20 @@
+<head>
+  <title>my_first_app</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> date}}
+  {{> date2}}
+</body>
+
+<template name="date">
+  // method 1
+  <p>The current time is:  {{newDate}}</p>
+</template>
+
+<template name="date2">
+  // method 2
+  <p>The current time is:  {{time}}</p>
+</template>
